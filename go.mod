@@ -1,10 +1,9 @@
 module github.com/kushpathakgit/simplebank
 
-go 1.25.5
-
-require github.com/lib/pq v1.12.3
+go 1.20
 
 require (
+	github.com/lib/pq v1.12.3
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/stretchr/testify v1.11.1 // indirect
